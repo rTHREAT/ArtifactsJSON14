@@ -45,63 +45,7 @@
         "techniques": [
                 {
                         "comment": "", 
-                        "techniqueID": "This malware has been obfuscated by rTHREAT in order to be able to bypass detection systems such as anti-malware", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "EPP", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "IPS etc.\r\nA Trojan is a type of malware that in many cases masks itself as genuine software. Adversaries use Trojans to get access to users' systems. Generally", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "social engineering is the main raison users load and execute Trojans on their systems. Once activated", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "Trojans allow cybercriminals to spy", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "steal information", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "and gain access to the computer using backdoors. These actions can include: \r\n- Delete data\r\n- Lock data\r\n- Modify data\r\n- Copy data\r\n- Disrupt the operation of computers or computer networks\r\nUnlike viruses and worms", 
-                        "color": "#e60d0d", 
-                        "showSubtechniques": true, 
-                        "enabled": true, 
-                        "metadata": []
-                }, 
-                {
-                        "comment": "", 
-                        "techniqueID": "Trojans are unable to replicate themselves.\r\n\r\nObfuscation: Mutation and Virtualization.\r\n\r\nMALICIOUS:\r\n\r\nSample was identified as malicious by a trusted Antivirus engine\r\nThe analysis spawned a process that was identified as malicious\r\nWrites data to a remote process\r\nChecks for a resource fork (ADS) file\r\n\r\nSUSPICIOUS:\r\n\r\nQueries kernel debugger information\r\nQueries process information\r\nCreates guarded memory regions (anti-debugging trick to avoid memory dumping)\r\nPE file has unusual entropy sections\r\nReads the active computer name\r\nReads the cryptographic machine GUID\r\nTries to sleep for a long time (more than two minutes)\r\nSample was identified as malicious by at least one Antivirus engine\r\nDetects sample launching another instance of itself\r\nContains ability to open a port and listen for incoming connection\r\nModifies proxy settings\r\nQueries sensitive IE security settings\r\nInstalls hooks/patches the running process\r\nReads information about supported languages\r\n\r\nINFO: \r\n\r\nContains ability to read software policies\r\nQueries volume information\r\nCreates mutants\r\nFound API related strings\r\nLoads the .NET runtime environment\r\nObserved GetAsyncKeyState/GetKeyState API string\r\nProcess launched with changed environment\r\nSpawns new processes\r\nSpawns new processes that are not known child processes\r\nConnects to LPC ports\r\nTouches files in the Windows directory\r\nFound potential URL in binary/memory\r\nOpens the Kernel Security Device Driver (KsecDD) of Windows\r\nMatched Compiler/Packer signature\r\n\r\nhttps://www.hybrid-analysis.com/sample/14e33c808b632f5e4e6e94dc332135dfd337b01eff777b20230790348b63754e/628e6acb763df5654249c6e4\r\n\r\n2022-05-24\r\n2022-05-25\r\n\r\n\r\n\r\nZ:\\Known\\Trojan\\14e33.Trojan.exe.rthreat\r\nZ:\\Ofuscados\\Trojan\\14e33.Trojan.Obf.exe.rthreat\r\n\r\n\r\nT1204", 
+                        "techniqueID": "T1204", 
                         "color": "#e60d0d", 
                         "showSubtechniques": true, 
                         "enabled": true, 
@@ -237,7 +181,7 @@
                 }, 
                 {
                         "comment": "", 
-                        "techniqueID": "T1571\r\n\r\nExecution & Privilege Escalation & Defense Evasion & Credential Access & Discovery & Collection & Command and Control", 
+                        "techniqueID": "T1571", 
                         "color": "#e60d0d", 
                         "showSubtechniques": true, 
                         "enabled": true, 
